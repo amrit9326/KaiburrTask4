@@ -1,3 +1,15 @@
+1.Note this is front end for -framework used angular
+2.The api file (backend -springboot) is "https://github.com/amrit9326/KaiburrTask4-Api" - Inside this folder you will get 
+KaiburrTask1 folder import that into springboot tool suite
+
+3.Than download this one and build the project npm install,ng build,ng server
+
+4.angular fontend ('localhost:4200') ---------> springboot(localhost:8080) --------->mongodb(localhot:27017)
+
+
+
+
+
 # Kaiburrtask4
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
