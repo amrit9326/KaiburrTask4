@@ -1,0 +1,27 @@
+<div class="container">
+                                                                                          
+    <div class="table-responsive">          
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Server Id</th>
+          <th>Server Name</th>
+          <th>Language</th>
+          
+          <th>Framework</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let server of servers">
+          <td>{{server.sid}}</td>
+          <td>{{server.name}}</td>
+          <td>{{server.language}}</td>
+          <td>{{server.framework}}</td>
+          <td><button class="button is-small btn-danger" (click)='deleteServer(this.server.sid)'>Delete</button></td>
+       
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </div>

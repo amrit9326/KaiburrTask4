@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "kaiburrtask4"
+    }
+  },
+  "defaultProject": "kaiburrtask4",
+  "cli": {
+    "analytics": "c39814b2-eed0-4ee5-ac68-cca5446997b5"
+  }
 }

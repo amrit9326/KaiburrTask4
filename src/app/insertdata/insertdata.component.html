@@ -1,0 +1,59 @@
+<div class="container">
+    <div class="row">
+      <div class="offset-3"></div>
+      <div class="col-md-6">
+        <form name="form" #f="ngForm" (ngSubmit)="insert()">
+          <!-- Name -->
+          <div class="form-group">
+            <label for="sid">Server Id</label>
+            <input type="number"
+                   id="sid"
+                   class="form-control"
+                   name="sid"
+                   placeholder="server id it should be unique"
+                   [(ngModel)]="model.sid"
+                  
+                   /></div>
+          <div class="form-group">
+            <label for="name">Server Name</label>
+                <input type="text"
+                   id="name"
+                   class="form-control"
+                   name="name"
+                   placeholder="Server Name.."
+                   [(ngModel)]="model.name"
+                  
+                   /></div>
+         
+          <div class="form-group">
+            <label for="language">Language</label>
+                <input type="text"
+                   id="language"
+                   class="form-control"
+                   name="language"
+                   placeholder="language"
+                   [(ngModel)]="model.language"
+                  
+                   /></div>
+            
+         <div class="form-group">
+             <label for="framework">framework</label>
+                <input type="text"
+                id="framework"
+                class="form-control"
+                name="framework"
+                placeholder="framework"
+                [(ngModel)]="model.framework"
+                /></div>
+                    
+                 
+  
+          <button type="submit" class="btn btn-info pull-right">
+            <i class="fa fa-envelope-o"></i>
+            <span> Submit</span>
+          </button>
+        </form>
+      </div>
+      <div class="offset-3"></div>
+    </div>
+  </div>
