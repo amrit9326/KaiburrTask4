@@ -6,8 +6,8 @@ KaiburrTask1 folder import that into springboot tool suite
 
 4.angular fontend ('localhost:4200') ---------> springboot(localhost:8080) --------->mongodb(localhot:27017)
 
-
-5. Versions-i)npm =6.13.7 ii) node =13.10.1
+5.First Run mongodb then springboot (java) then angular(front-end)
+6. Versions-i)npm =6.13.7 ii) node =13.10.1
 
 
 # Kaiburrtask4
